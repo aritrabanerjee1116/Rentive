@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Vehicles</title>
+  </head>
+  <body>
+    <!-- ==================navbar======================== -->
+    <header>
+      <nav class="header-bg">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html"><img src="img/Logo.png" alt="logo" /></a>
+          </div>
+          <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+          <div class="nav-items">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="vehicles.html">Vehicles</a></li>
+              <li><a href="service.html">Service</a></li>
+              <li><a href="blogs.html">Blog</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="user">
+            <a href=""
+              ><i
+                class="fa-solid fa-circle-user fa-2xl"
+                style="color: #f1bb2b"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- ========================navbar end====================== -->
+       <section class="tittle">
+        <div class="container">
+          <div class="row">
+            <div class="col50">
+              <div class="findtext">
+                <h1>Find Your Perfect Car</h1>
+                <p style="margin-bottom: 20px;">Search and find your best car rental with easy way</p>
+              </div>
+            </div>
+            <div class="col50">
+              <div class="findSearch">
+                <input type="text" placeholder="Search by car name" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      <!-- =================search end==================== -->
+      <!-- =====================collection============================ -->
+      <section class="collection">
+        <div class="container">
+          <div class="row">
+            <div class="col25 sidebar">
+              <div class="collectionmap-section">
+                <div class="collectionmap-placeholder">
+                  <div><h4>Show on map</h4></div>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2624.828769010387!2d2.390892211743443!3d48.861475500370304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1746018221085!5m2!1sen!2sin"
+                    width="220"
+                    height="160"
+                    style="border: 0; border-radius: 10px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+              <div class="collectionfilter-section">
+                <div class="">
+                  <h3>Filter Price</h3>
+                <input type="range"/>
+                <div class="collectionprice-label">$0 — $500</div>
+                <!-- <button class="clear">Clear</button>
+                <button class="apply">Apply</button> -->
+                <div>
+                  <a href="#" class="collectionclear">clear</a>
+                  <a href="#" class="collectionapply">apply</a>
+                </div>
+                </div>
+              </div>
+
+              <div class="collectionfilter-section">
+                <h3>Car Type</h3>
+                <div class="collectionfilter-sectionlabel">
+                <label class="collectioncheckbox"><input type="checkbox" /> All</label>
+                <label class="collectioncheckbox"><input type="checkbox" /> Leather upholstery</label>
+                <label class="collectioncheckbox"><input type="checkbox" /> Heated seats</label>
+                <label class="collectioncheckbox"><input type="checkbox" /> Sunroof / Moonroof</label>
+                <label class="collectioncheckbox"><input type="checkbox" /> Keyless entry / start</label>
+                <label class="collectioncheckbox"><input type="checkbox" /> Heads-up display</label>
+                <label class="collectioncheckbox"><input type="checkbox" /> Adaptive cruise Control</label>
+                </div>
+                <div class="collectionsee"><a href="#" class="collectionseemore">See more</a></div>
+              </div>
+            </div>
+            <div class="col75">
+              <div class="row collectionlisting-header">
+                <div class="col50">
+                  <div>
+                    <a href=""><img src="img/Frame.png" alt=""></a>
+                    <a href=""><img src="img/Vector.png" alt=""></a>
+                      64 items found
+                  </div>
+                  </div>
+                <div class="col50 collectiontext-right">
+                  <select>
+                    <option>Show: 20</option>
+                    <option>Show: 40</option>
+                  </select>
+                  <select>
+                    <option>Sort by: Most Viewed</option>
+                    <option>Price Low to High</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row collectioncards">
+                <div class="col33">
+                  <div class="collectioncard">
+                    <h4>Rolls Royce Phantom SWB</h4>
+                    <div>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                    </div>
+                    <a href="vehiclesdet.html"><img src="img/Audi-SQ7-Quattro_img1 1.png" alt="Car" /></a>
+                    <p>Rolls Royce Phantom SWB is a luxurious and opulent</p>
+                    <div class="collectionprice">$20 <span>/ per hour</span></div>
+                    <div class="collectionclick">
+                      <a href="vehiclesdet.html" class="collectionbtn">More details</a>
+                    </div>
+                  </div>
+                  <div class="collectioncard">
+                    <h4>Rolls Royce Phantom SWB</h4>
+                    <div>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                     </div>
+                    <a href="vehiclesdet.html"><img src="img/ferrari_fxx_img1 2.png" alt="Car" /></a>
+                    <p>Rolls Royce Phantom SWB is a luxurious and opulent</p>
+                    <div class="collectionprice">$20 <span>/ per hour</span></div>
+                    <div class="collectionclick">
+                      <a href="vehiclesdet.html" class="collectionbtn">More details</a>
+                    </div>
+                  </div>
+                  <div class="collectioncard">
+                    <h4>Rolls Royce Phantom SWB</h4>
+                    <div>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                     </div>
+                    <a href="vehiclesdet.html"><img src="img/ferrari_fxx_img1 2.png" alt="Car" /></a>
+                    <p>Rolls Royce Phantom SWB is a luxurious and opulent</p>
+                    <div class="collectionprice">$20 <span>/ per hour</span></div>
+                    <div class="collectionclick">
+                      <a href="vehiclesdet.html" class="collectionbtn">More details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col33">
+                  <div class="collectioncard">
+                    <h4>Rolls Royce Phantom SWB</h4>
+                    <div>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                     </div>
+                    <a href="vehiclesdet.html"><img src="img/Lamborghini-Revuelto_img1 2.png" alt="Car" /></a>
+                    <p>Rolls Royce Phantom SWB is a luxurious and opulent</p>
+                    <div class="collectionprice">$20 <span>/ per hour</span></div>
+                    <div class="collectionclick">
+                      <a href="vehiclesdet.html" class="collectionbtn">More details</a>
+                    </div>
+                  </div>
+                  <div class="collectioncard">
+                    <h4>Rolls Royce Phantom SWB</h4>
+                    <div>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                     </div>
+                    <a href="vehiclesdet.html"><img
+                      src="img/Rolls-Royce-Phantom_SWB_img1 2.png"
+                      alt="Car"
+                    /></a>
+                    <p>Rolls Royce Phantom SWB is a luxurious and opulent</p>
+                    <div class="collectionprice">$20 <span>/ per hour</span></div>
+                    <div class="collectionclick">
+                      <a href="vehiclesdet.html" class="collectionbtn">More details</a>
+                    </div>
+                  </div>
+                  <div class="collectioncard">
+                    <h4>Rolls Royce Phantom SWB</h4>
+                    <div>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                     </div>
+                    <a href="vehiclesdet.html"><img
+                      src="img/ferrari_f12_berlinetta_img1 2.png"
+                      alt="Car"
+                    /></a>
+                    <p>Rolls Royce Phantom SWB is a luxurious and opulent</p>
+                    <div class="collectionprice">$20 <span>/ per hour</span></div>
+                    <div class="collectionclick">
+                      <a href="vehiclesdet.html" class="collectionbtn">More details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col33">
+                  <div class="collectioncard">
+                    <h4>Rolls Royce Phantom SWB</h4>
+                    <div>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                     </div>
+                    <a href="vehiclesdet.html"><img
+                      src="img/ferrari_f12_berlinetta_img1 2.png"
+                      alt="Car"
+                    /></a>
+                    <p>Rolls Royce Phantom SWB is a luxurious and opulent</p>
+                    <div class="collectionprice">$20 <span>/ per hour</span></div>
+                    <div class="collectionclick">
+                      <a href="vehiclesdet.html" class="collectionbtn">More details</a>
+                    </div>
+                  </div>
+                  <div class="collectioncard">
+                    <h4>Rolls Royce Phantom SWB</h4>
+                    <div>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                      <i class="fa-solid fa-star fa-xs" style="color: #a7893b;"></i>
+                     </div>
+                    <a href="vehiclesdet.html"><img src="img/Audi-SQ7-Quattro_img1 1.png" alt="Car" /></a>
+                    <p>Rolls Royce Phantom SWB is a luxurious and opulent</p>
+                    <div class="collectionprice">$20 <span>/ per hour</span></div>
+                    <div class="collectionclick">
+                      <a href="vehiclesdet.html" class="collectionbtn">More details</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Repeat card column as needed -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================slider start======================= -->
+      <section class="logos-vehicles">
+        <div class="brands">
+            <img src="Images/Home/Logos/acura 1.png" alt="Acura">
+            <img src="Images/Home/Logos/bmw 1.png" alt="BMW">
+            <img src="Images/Home/Logos/bugatti 1.png" alt="Bugatti">
+            <img src="Images/Home/Logos/chevrolet 1.png" alt="Chevrolet">
+            <img src="Images/Home/Logos/honda 1.png" alt="Honda">
+            <img src="Images/Home/Logos/jaguar 1.png" alt="Jaguar">
+            <img src="Images/Home/Logos/lexus 1.png" alt="Lexus">
+            <img src="Images/Home/Logos/mer 1.png" alt="Mer">
+            <img src="Images/Home/Logos/toyota 1.png" alt="Toyota">
+        </div>
+    </section>
+      <!-- =========================slider end======================= -->
+      <!-- =========================booking section start======================= -->
+      <section class="booking">
+        <div class="container">
+            <div class="text">
+                <h2 style="font-size: 36px;">BOOK A CAR</h2>
+                <p style="margin-bottom: 40px; font-size: 20px; width: 500px;">Experience a smooth and stylish ride, making every journey comfortable and premium.</p>
+                <a class="btn" href="bookacar.html">Book Now</a>
+                <a class="call" href=""><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+    </section>
+      <!-- =========================booking section end======================= -->
+    </main>
+    <!-- =========================footer section start======================= -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer-upper">
+          <div class="col20">
+            <figure>
+              <a href=""
+                ><img src="img/Logo.png" alt="southern-logo" loading="lazy"
+              /></a>
+            </figure>
+            <div style="color: white">
+              Experience the ease and convenience of renting <br />
+              a car with Rentive of renting a ca.
+            </div>
+            <ul class="socials">
+              <li>
+                <a href="https://www.instagram.com/?hl=en" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://in.linkedin.com/" target="_blank"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://x.com/?lang=en-in" target="_blank"
+                  ><i class="fa-brands fa-x-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col45 links-left">
+            <div class="linkbox">
+              <div class="h5-title">legal policy</div>
+              <ul class="quicklinks">
+                <li>
+                  <a href="#"
+                    ><i
+                      class="fa-solid fa-chevron-up fa-rotate-90"
+                      style="color: #a7893b"
+                    ></i
+                    >Term & Condition</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i
+                      class="fa-solid fa-chevron-up fa-rotate-90"
+                      style="color: #a7893b"
+                    ></i
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i
+                      class="fa-solid fa-chevron-up fa-rotate-90"
+                      style="color: #a7893b"
+                    ></i
+                    >Legal Notice</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i
+                      class="fa-solid fa-chevron-up fa-rotate-90"
+                      style="color: #a7893b"
+                    ></i
+                    >Accessibility</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="linkbox">
+              <div class="h5-title">Quick links</div>
+              <ul class="quicklinks">
+                <li>
+                  <a href="index.html"
+                    ><i
+                      class="fa-solid fa-chevron-up fa-rotate-90"
+                      style="color: #a7893b"
+                    ></i
+                    >home</a
+                  >
+                </li>
+                <li>
+                  <a href="about.html"
+                    ><i
+                      class="fa-solid fa-chevron-up fa-rotate-90"
+                      style="color: #a7893b"
+                    ></i
+                    >about us</a
+                  >
+                </li>
+                <li>
+                  <a href="vehicles.html"
+                    ><i
+                      class="fa-solid fa-chevron-up fa-rotate-90"
+                      style="color: #a7893b"
+                    ></i
+                    >Vehicles</a
+                  >
+                </li>
+                <li>
+                  <a href="service.html"
+                    ><i
+                      class="fa-solid fa-chevron-up fa-rotate-90"
+                      style="color: #a7893b"
+                    ></i
+                    >Service</a
+                  >
+                </li>
+                <li>
+                  <a href="blogs.html"
+                    ><i
+                      class="fa-solid fa-chevron-up fa-rotate-90"
+                      style="color: #a7893b"
+                    ></i
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a href="contact.html"
+                    ><i
+                      class="fa-solid fa-chevron-up fa-rotate-90"
+                      style="color: #a7893b"
+                    ></i
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="col20">
+             
+            </div> -->
+          <div class="col35">
+            <div class="h5-title">Contact Us</div>
+            <ul class="contact">
+              <li>
+                <a href="contact.html"
+                  ><span
+                    ><i
+                      class="fa-solid fa-location-arrow fa-rotate-by"
+                      style="color: #a7893b; --fa-rotate-angle: 45deg"
+                    ></i></span
+                  ><span class="right">6710, Kazipur, Sirajganj</span></a
+                >
+              </li>
+              <li>
+                <a href="tel:-880 123 556 7890"
+                  ><span
+                    ><i
+                      class="fa-solid fa-phone-volume"
+                      style="color: #a7893b"
+                    ></i
+                  ></span>
+                  <span class="right">-880 123 556 7890</span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:Info@domain.com"
+                  ><span
+                    ><i class="fa-solid fa-envelope" style="color: #a7893b"></i
+                  ></span>
+                  <span class="right">Info@domain.com</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- =========================footer section end======================= -->
+    <script>
+      var copy = document.querySelector(".brands").cloneNode(true);
+      document.querySelector(".logos-vehicles").appendChild(copy);
+  </script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="script.js"></script>
+
+
+  </body>
+</html>
