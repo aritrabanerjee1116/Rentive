@@ -8,6 +8,11 @@ a {
   text-decoration: none;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   max-width: 1170px;
   padding: 0 15px;
@@ -443,14 +448,15 @@ a {
   background: #F6F5F1;
   display: flex;
   flex-direction: column;
-  height: 320px;
-  width: 220px;
+  /* height: 320px;
+  width: 220px; */
   justify-content: center;
   align-items: center;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   margin-bottom: 50px;
   transition: 800ms ease-in-out;
+  padding: 50px 30px;
 }
 .second-row {
   display: flex;
@@ -475,8 +481,8 @@ a {
 }
 
 .services .container .row .col25 .box p {
-  width: 243px;
-  height: 66px;
+  /* width: 243px;
+  height: 66px; */
   text-align: center;
 }
 
@@ -807,8 +813,6 @@ a {
 }
 .blogs .container .row .effect{
   position: relative;
-  width: 100%;
-  height: 100%;
   overflow: hidden;
 }
 
@@ -884,9 +888,9 @@ a {
   padding-left: 50px;
   position: relative;
 }
-.image-holder img{
+/* .image-holder img{
   width: 100%;
-}
+} */
 .image-holder::after{
   position: absolute;
   content: "";
@@ -1149,10 +1153,10 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-.navbar .container .logo img{
+/* .navbar .container .logo img{
     width: 100%;
     height: 100%;
-}
+} */
 .navbar .container .nav-menu ul{
     display: flex;
 }
@@ -1248,10 +1252,10 @@ a {
   width: 100%;
 }
 
-.about-1 .container .row .col60 .first-layout img {
+/* .about-1 .container .row .col60 .first-layout img {
   height: 100%;
   width: 288px;
-}
+} */
 
 
 /* End of About Us */
@@ -1342,10 +1346,10 @@ a {
     gap: 10px; /* Reduced gap */
     padding: 20px 0;
   }
-  .image-grid .grid-box img{
+  /* .image-grid .grid-box img{
     width: 100%;
     height: 100%;
-  }
+  } */
   
 
 /* ================================= */
@@ -1803,9 +1807,9 @@ button.submit-btn:hover {
   color: #777;
 }
 
-.autostart-service .col50 .moreimg img{
+/* .autostart-service .col50 .moreimg img{
   width: 100%;
-}
+} */
 /* ========================================================================================== */
 /* ========================================================================================== */
 /*===============================service details page css============================================ */
@@ -1855,9 +1859,9 @@ button.submit-btn:hover {
 .moreinfobox .gap{
   width: 100%;
 }
-.moreinfobox .gap img{
+/* .moreinfobox .gap img{
   width: 100%;
-}
+} */
 
 .accordion {
   background-color: #eee;
@@ -2140,7 +2144,7 @@ button:hover {
 }
 
 .collectioncard img {
-  width: 100%;
+  /* width: 100%; */
   border-radius: 6px;
 }
 
@@ -2201,7 +2205,7 @@ color: white;
 
 /* ================================================================ */
 
-.blogs .container .row .col {
+/* .blogs .container .row .col {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -2252,7 +2256,7 @@ color: white;
   border-radius: 30px;
   background: linear-gradient(to bottom, rgba(122, 124, 124, 0) 0%, rgba(0, 0, 0, 1) 100%);
 
-}
+} */
 .gap{
   display: flex;
 }
@@ -2302,16 +2306,16 @@ color: white;
 .banner-blogs .container .text p{
   font-size: 40px;
   color: #fff;
-  width: 550px;
+  max-width: 550px;
 }
 
 /* End of Banner */
 
 /* Starting of Blog-posts */
 
-.blog-posts .container img{
+/* .blog-posts .container img{
   width: 100%;
-}
+} */
 
 .blog-posts .container .blog{
   margin-top: 100px;
@@ -2440,10 +2444,10 @@ display: none;
     height: 100%;
     width: 100%;
   }
-  .about img{
+  /* .about img{
     width: 100%;
     height: 100%;
-  }
+  } */
 
   .services .container .row{
     flex-direction: row;
@@ -2455,6 +2459,10 @@ display: none;
   }
   .services .container .row .col25{
     max-width: 50%;
+    flex: 0 0 50%;
+  }
+  .services .container .row .col25 .box{
+    padding: 100px 40px;
   }
   .choose-us .container .center-shape .bg{
     display: none;
@@ -2465,23 +2473,30 @@ display: none;
     width: 100%;
     transform: translateX(-50%);
   }
+
   .blogs .container .row .effect::after {
     display: none;
   
   }
   .blogs .effect{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .blogs .col .box{
     margin-bottom: 10px;
-    justify-content: space-between;
-    width: 100%;
+    padding: 80px 60px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 1s all;
+  }
+  .blogs .col .box:hover{
+    scale: 1.1;
   }
   .booking .text {
     justify-self: center;
   }
   .download img{
-    width: 80%;
+    /* width: 80%; */
     padding-top: 20px;
   }
   .image-holder::after{
@@ -2540,9 +2555,9 @@ display: none;
 
  /* ----------Services---------- */
 
- .services{
+ /* .services{
   display: none;
- }
+ } */
  
  /* End of Services */
 
@@ -2557,6 +2572,9 @@ display: none;
 
  .banner-blogs::before{
   display: none;
+ }
+ .blog-posts .container .blog .text {
+  margin: 25px 0 0 0;
  }
  .blog-posts .container .blog .text .description{
   width: 740px;
@@ -2578,12 +2596,12 @@ display: none;
  .ultimatesection .description i{
   display: none;
  }
- .blogdeimg .gap .col35 img{
+ /* .blogdeimg .gap .col35 img{
   width: 100%;
  }
  .qoutessection .col30 img{
   width: 100%;
- }
+ } */
 
  /* --------End of Blog-details------------- */
 
@@ -2630,16 +2648,19 @@ display: none;
  .blogs  .info i{
   display: none !important;
 }
-.blogs .col .box .image img{
+/* .blogs .col .box .image img{
   max-width: 450px;
   height: 400px;
-}
-.blogs  .info{
+} */
+/* .blogs  .info{
   width:400px;
-}
-.blogs .effect img{
+} */
+/* .blogs .effect img{
   width: 100%;
-}
+} */
+ .services-1{
+  display: none;
+ }
 
 
 }
@@ -2679,7 +2700,7 @@ display: none;
   /* ----------Blogs---------- */
 
   .blog-posts .container .blog .text .description{
-    width: 520px;
+    max-width: 100%;
   }
 
   .collection .row{
@@ -2691,7 +2712,10 @@ display: none;
     max-width: 100% !important;
     flex-basis: 100% !important;
    }
-
+   .banner-blogs .container .text{
+   left: 50%;
+   transform: translateX(-50%);
+   }
  
 }
 
@@ -2737,6 +2761,7 @@ display: none;
   }
   .services .container .row .col25{
     max-width: 100%;
+    flex: 0 0 100%;
   }
 
   .choose-us .benefits-layout{
@@ -2756,10 +2781,10 @@ display: none;
   .blogs  .info i{
     display: none !important;
   }
-  .blogs .effect img{
+  /* .blogs .effect img{
     height: 300px;
     width: 300px;
-  }
+  } */
 
 
   /* -------End of Home--------------- */
@@ -2770,9 +2795,9 @@ display: none;
     width: 100%;
 }
 
-  .section-support .image-stack img{
+  /* .section-support .image-stack img{
     max-width: 100%;
-  }
+  } */
   .data{
     margin-top: 130px;
   }
@@ -2806,9 +2831,9 @@ display: none;
   #car-det{
     width: 100%;
   }
-  .moredetails .col40 img{
+  /* .moredetails .col40 img{
     width: 100%;
-  }
+  } */
 
   /* ------Vehicle Details----------- */
 
@@ -2823,23 +2848,29 @@ display: none;
 
 
   /* -------Blogs---------- */
-  .blog-posts .container .blog .text .description{
-    width: 280px;
+  
+  .blog-posts .container .blog{
+    max-width: 100%;
+    padding: 20px 40px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px; 
+    transition: 1s all;
+  }
+  .blog-posts .container .blog:hover{
+    scale: 1.1;
   }
   .banner-blogs .container .text h1{
-    font-size: 40px !important;
+    font-size: 30px !important;
   }
-  .banner-blogs .container .text p {
-    width:300px;
-    font-size: 26px !important;
+  .banner-blogs .container .text p{
+    font-size: 36px;
   }
-  .blogs .col .box .image img{
-    max-width: 250px;
-    height: 250px;
+  .banner-blogs .container .text {
+   max-width: 100%;
+   top: 180px;
+   transform: translate(-50%, -50%);
   }
-  .blogs .info{
-    width: 250px;
-  }
+ 
   
 
   /* ------End of Blogs-------- */
