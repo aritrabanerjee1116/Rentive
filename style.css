@@ -1027,9 +1027,10 @@ img{
   padding-top: 48px;
 }
 .contact li {
-  display: flex;
+  /* display: flex; */
 }
 .contact li a {
+  display: inline-block;
   padding-bottom: 14px;
 }
 .contact li a span {
@@ -2362,7 +2363,7 @@ color: white;
   right: -100%;
   width: 100vw;
   height: 100vh;
-  background: #000;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -2529,7 +2530,7 @@ display: none;
   .footer .links-left{
     margin-bottom: 30px;
   }
-
+  .footer .col35 
   /* -----------End of Home-------------- */
 
   /* -------About-------- */
@@ -2596,12 +2597,7 @@ display: none;
  .ultimatesection .description i{
   display: none;
  }
- /* .blogdeimg .gap .col35 img{
-  width: 100%;
- }
- .qoutessection .col30 img{
-  width: 100%;
- } */
+
 
  /* --------End of Blog-details------------- */
 
@@ -2648,20 +2644,26 @@ display: none;
  .blogs  .info i{
   display: none !important;
 }
-/* .blogs .col .box .image img{
-  max-width: 450px;
-  height: 400px;
-} */
-/* .blogs  .info{
-  width:400px;
-} */
-/* .blogs .effect img{
-  width: 100%;
-} */
  .services-1{
   display: none;
  }
-
+ .collection .sidebar{
+  border-right: 0;
+ }
+.blog-posts .qoutessection .row{
+  align-items: center;
+  justify-content: center;
+}
+ .quotessection .row .col30{
+  max-width: 100% !important;
+}
+ .quotessection .row .col70{
+  max-width: 100% !important;
+}
+ .details .price-box{
+    gap: 40px;
+    justify-content: center;
+  }
 
 }
 
@@ -2716,6 +2718,10 @@ display: none;
    left: 50%;
    transform: translateX(-50%);
    }
+    .section-support .col50 .content{
+    margin-left: 0;
+  }
+  
  
 }
 
@@ -2884,6 +2890,14 @@ display: none;
     flex-direction: column;
   }
   /* --------End of Book A Car----------- */
+
+  .section-support .col50 .content{
+    margin-left: 0;
+  }
+  .details .price-box{
+    gap: 0;
+    justify-content: space-evenly;
+  }
 
 
 }
