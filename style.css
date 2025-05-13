@@ -79,7 +79,7 @@ img{
 .banner .container .text {
   color: #ffffff;
   line-height: 1.8;
-  margin-top: 300px;
+  padding-top: 250px;
 }
 
 .banner .container .text h1 {
@@ -2899,5 +2899,13 @@ display: none;
     justify-content: space-evenly;
   }
 
-
+  .about .layout .first-layout{
+    width: 100% !important;
+  }
+  .about .layout .first-layout img{
+    width: 100%;
+  }
+    .about .layout .second-layout{
+    width: 100% !important;
+  }
 }
